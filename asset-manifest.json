@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KaleGovindSuresh.github.io/frontend-task.git/static/css/main.c8b3dbc2.css",
+    "main.js": "/KaleGovindSuresh.github.io/frontend-task.git/static/js/main.dc9959ca.js",
+    "static/js/453.2a82e7ac.chunk.js": "/KaleGovindSuresh.github.io/frontend-task.git/static/js/453.2a82e7ac.chunk.js",
+    "index.html": "/KaleGovindSuresh.github.io/frontend-task.git/index.html",
+    "main.c8b3dbc2.css.map": "/KaleGovindSuresh.github.io/frontend-task.git/static/css/main.c8b3dbc2.css.map",
+    "main.dc9959ca.js.map": "/KaleGovindSuresh.github.io/frontend-task.git/static/js/main.dc9959ca.js.map",
+    "453.2a82e7ac.chunk.js.map": "/KaleGovindSuresh.github.io/frontend-task.git/static/js/453.2a82e7ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8b3dbc2.css",
+    "static/js/main.dc9959ca.js"
+  ]
+}

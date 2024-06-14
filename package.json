@@ -17,7 +17,7 @@
     "recharts": "^2.12.7",
     "web-vitals": "^2.1.4"
   },
-    "homepage": "https://github.com/KaleGovindSuresh.github.io/frontend-task.git",
+    "homepage": "https://github.com/KaleGovindSuresh.github.io/frontend-task",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

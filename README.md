@@ -1,3 +1,42 @@
+# Frontend Task
+
+## Summary
+This repository contains the completed frontend task for the project. The task includes the implementation of a responsive side navigation bar, population data graph, cryptocurrency prices display, and MetaMask wallet integration.
+
+## Features
+1. **Side Navigation Bar**
+   - Responsive design that collapses into a hamburger menu on smaller screens.
+   - Includes three navigation items.
+   - Highlights the active navigation item.
+
+2. **Graph Population Data**
+   - Fetches population data from the provided API.
+   - Displays data using a responsive line graph.
+   - Includes labels, legends, and axis titles.
+
+3. **Display Cryptocurrency Prices**
+   - Fetches cryptocurrency prices from the provided API.
+   - Displays prices in visually appealing cards for multiple currencies.
+
+4. **Integrate MetaMask Wallet**
+   - Implements MetaMask wallet connection functionality.
+   - Provides feedback for successful or unsuccessful connection attempts.
+
+## Setup Instructions
+To set up and run this project locally, follow these steps:
+
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/KaleGovindSuresh/frontend-task.git
+
+2. **ChangeDirectory**:
+cd frontend-task
+
+2. **Install Dependancies**:
+npm install
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

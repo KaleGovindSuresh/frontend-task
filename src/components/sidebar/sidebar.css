@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.sidebar {
+  width: 256px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  padding: 24px;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.sidebar.active {
+  width: 92px;
+}
+.sidebar.active .menu-btn {
+  left: 60px;
+}
+.sidebar.active .menu-btn .company_name {
+  display: block;
+  padding: 10px;
+}
+
+.menu ul li {
+  position: relative;
+  list-style: none;
+  margin-bottom: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.active {
+  color: #000;
+}
+
+.menu-btn {
+  position: absolute;
+  left: 220px;
+  top: 3.5%;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #f0f0f0;
+  border: 2px solid #000;
+  background-color: #000;
+}
+
+/* sidebar styling */
+.sidebar {
+  background-color: #1f3f0d;
+  color: #f0f0f0;
+  margin: 0;
+  width: 240px;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+.user-details p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.st_span {
+  background-color: #000;
+  border-radius: 6px;
+  padding: 4px;
+  margin: 0px 4px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.active_menu {
+  color: #000;
+}
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+/* mobile view responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    position: absolute;
+    transform: translateX(-100%);
+  }
+
+  .sidebar.active {
+    transform: translateX(0);
+  }
+
+  .menu-btn {
+    position: fixed;
+    left: 230px;
+    top: 24px;
+  }
+
+  .sidebar.active .menu-btn {
+    left: 60px;
+  }
+}

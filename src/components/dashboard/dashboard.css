@@ -1,0 +1,111 @@
+.dashboard {
+  background-color: #010c21;
+  color: #f0f0f0;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.heading_user {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.welcome {
+  margin: 0;
+}
+.connect_button {
+  background-color: #1f3f0d;
+  color: #f0f0f0;
+  border: 1px solid #1f3f0d;
+  border-radius: 6px;
+  padding: 10px;
+}
+.graph {
+  margin: 0;
+  padding: 0;
+}
+.population-graph {
+  background-color: #1f3f0d;
+  padding: 10px;
+  border-radius: 6px;
+  width: 96%;
+  margin-left: 24px;
+}
+
+.bitcoin {
+  padding-left: 24px;
+}
+.crypto-prices {
+  display: flex;
+}
+.card {
+  background-color: #f0f0f0;
+  color: #000;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+  width: 240px;
+  margin-right: 10px;
+}
+.symbol {
+  border-radius: 100px;
+  border: 1px solid #1f3f0d;
+  padding: 4px 10px;
+  color: #f0f0f0;
+  background-color: #1f3f0d;
+  margin: 10px;
+  margin-left: 0px;
+}
+.price_code {
+  font-size: 18px;
+  font-weight: 700;
+}
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 6px 0px;
+}
+.rate_float {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.rate_float p {
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+  }
+  .graph {
+    margin: 0;
+  }
+
+  .population-graph {
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .bitcoin {
+    padding: 10px;
+  }
+
+  .crypto-prices {
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+  .card {
+    margin: 10px;
+  }
+}
